@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jrks1lin.github.io</id>
     <title>Xie LinQi</title>
-    <updated>2021-10-26T04:06:09.369Z</updated>
+    <updated>2021-10-29T04:17:44.535Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jrks1lin.github.io"/>
     <link rel="self" href="https://jrks1lin.github.io/atom.xml"/>
@@ -11,7 +11,28 @@
     <icon>https://jrks1lin.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Xie LinQi</rights>
     <entry>
-        <title type="html"><![CDATA[专业英语积累]]></title>
+        <title type="html"><![CDATA[【English pronunciation skills】H Reduction]]></title>
+        <id>https://jrks1lin.github.io/post/english-pronunciation-skills-h-reduction/</id>
+        <link href="https://jrks1lin.github.io/post/english-pronunciation-skills-h-reduction/">
+        </link>
+        <updated>2021-10-29T03:58:53.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Linear Algebra】 ]]></title>
+        <id>https://jrks1lin.github.io/post/linear-algebra/</id>
+        <link href="https://jrks1lin.github.io/post/linear-algebra/">
+        </link>
+        <updated>2021-10-28T09:25:49.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Machine Learning】]]></title>
+        <id>https://jrks1lin.github.io/post/machine-learning/</id>
+        <link href="https://jrks1lin.github.io/post/machine-learning/">
+        </link>
+        <updated>2021-10-28T09:21:13.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[计算机英语积累]]></title>
         <id>https://jrks1lin.github.io/post/zhuan-ye-ying-yu-ji-lei/</id>
         <link href="https://jrks1lin.github.io/post/zhuan-ye-ying-yu-ji-lei/">
         </link>
