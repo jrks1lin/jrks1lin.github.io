@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8" >
 
-<title>【Machine Learning】 | Xie LinQi</title>
+<title>【Machine Learning】macro/micro-P/R/F1 | Xie LinQi</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://jrks1lin.github.io/favicon.ico?v=1635481117737">
+<link rel="shortcut icon" href="https://jrks1lin.github.io/favicon.ico?v=1635504354674">
 <link rel="stylesheet" href="https://jrks1lin.github.io/styles/main.css">
 
 
@@ -18,8 +18,15 @@
 
 
 
-    <meta name="description" content="#西瓜书 Note
-" />
+    <meta name="description" content="#多分类任务中有两种分类法：
+
+算法直接进行多分类
+分解成多个二分类问题（使用macro/micro-P/R/F1）
+
+西瓜书 第二章 模型性能度量
+宏（先计算所有P/R/F1，再进行平均）
+macro-P： 宏查准率
+macro-R： 宏..." />
     <meta name="keywords" content="Machine Learning" />
   </head>
   <body>
@@ -29,7 +36,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://jrks1lin.github.io">
-        <img src="https://jrks1lin.github.io/images/avatar.png?v=1635481117737" class="site-logo">
+        <img src="https://jrks1lin.github.io/images/avatar.png?v=1635504354674" class="site-logo">
         <h1 class="site-title">Xie LinQi</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -91,14 +98,28 @@
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">【Machine Learning】</h2>
+            <h2 class="post-title">【Machine Learning】macro/micro-P/R/F1</h2>
             <div class="post-date">2021-10-28</div>
             
               <div class="feature-container" style="background-image: url('https://jrks1lin.github.io/post-images/machine-learning.jpg')">
               </div>
             
             <div class="post-content" v-pre>
-              <p>#西瓜书 Note</p>
+              <p>#多分类任务中有两种分类法：</p>
+<ol>
+<li>算法直接进行多分类</li>
+<li>分解成多个二分类问题（使用macro/micro-P/R/F1）</li>
+</ol>
+<h1 id="西瓜书-第二章-模型性能度量">西瓜书 第二章 模型性能度量</h1>
+<p>宏（先计算所有P/R/F1，再进行平均）<br>
+macro-P： 宏查准率<br>
+macro-R： 宏查全率<br>
+macro-F1：宏F1度量</p>
+<p>微（先平均数据中（混淆矩阵中）的每个元素（TP，FP，TM，FN）的平均值，然后计算P/R/F1）<br>
+micro-P： 微查准率<br>
+micro-R： 微查全率<br>
+micro-F1：微F1度量</p>
+<figure data-type="image" tabindex="1"><img src="https://jrks1lin.github.io/post-images/1635504321928.png" alt="" loading="lazy"></figure>
 
             </div>
             
