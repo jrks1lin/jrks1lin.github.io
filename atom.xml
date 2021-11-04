@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jrks1lin.github.io</id>
     <title>Xie LinQi</title>
-    <updated>2021-10-29T15:03:00.667Z</updated>
+    <updated>2021-11-04T14:45:50.306Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jrks1lin.github.io"/>
     <link rel="self" href="https://jrks1lin.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://jrks1lin.github.io/images/avatar.png</logo>
     <icon>https://jrks1lin.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Xie LinQi</rights>
+    <entry>
+        <title type="html"><![CDATA[【numpy】数组基础]]></title>
+        <id>https://jrks1lin.github.io/post/numpy-shu-zu-ji-chu/</id>
+        <link href="https://jrks1lin.github.io/post/numpy-shu-zu-ji-chu/">
+        </link>
+        <updated>2021-11-01T10:20:35.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【English pronunciation skills】H Reduction]]></title>
         <id>https://jrks1lin.github.io/post/english-pronunciation-skills-h-reduction/</id>
